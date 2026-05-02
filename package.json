@@ -12,7 +12,9 @@
   "dependencies": {
     "node.js": "^0.0.1-security",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
