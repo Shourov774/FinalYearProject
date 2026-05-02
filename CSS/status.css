@@ -1,0 +1,29 @@
+.status{
+    display:flex;
+    align-items:center;
+    gap:9px;
+    padding:11px 14px;
+    border-radius:7px;
+    font-weight:600;
+    font-size:13px
+}
+.status.ok{
+    background:rgba(0,230,118,0.08);
+    border:1px solid rgba(0,230,118,0.2);
+    color:var(--green)
+}
+.status.err{
+    background:rgba(255,61,87,0.08);
+    border:1px solid rgba(255,61,87,0.2);
+    color:var(--red)
+}
+.status.warn{
+    background:rgba(255,179,0,0.08);
+    border:1px solid rgba(255,179,0,0.2);
+    color:var(--amber)
+}
+.status.info{
+    background:rgba(0,212,255,0.06);
+    border:1px solid rgba(0,212,255,0.15);
+    color:var(--cyan)
+}

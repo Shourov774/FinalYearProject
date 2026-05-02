@@ -1,0 +1,40 @@
+.atk-card{
+  background:var(--bg);
+  border:1px solid var(--border);
+  border-radius:10px;
+  overflow:hidden;
+  margin-bottom:14px;
+}
+.atk-hd{
+  padding:14px 18px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  cursor:pointer;
+  border-bottom:1px solid var(--border);
+  transition:background 0.15s;
+}
+.atk-hd:hover{background:var(--s1)}
+.atk-hd-left{
+    display:flex;align-items:center;
+    gap:12px
+}
+.atk-badge{
+  font-family:var(--mono);
+  font-size:10px;
+  font-weight:700;
+  padding:3px 9px;
+  border-radius:4px;
+  letter-spacing:0.5px;
+}
+.atk-badge.red{
+    background:rgba(255,61,87,0.15);
+    color:var(--red);
+    border:1px solid rgba(255,61,87,0.3)
+}
+.atk-badge.amber{
+    background:rgba(255,179,0,0.15);
+    color:var(--amber);
+    border:1px solid rgba(255,179,0,0.3)
+}
+.atk-body{padding:18px}

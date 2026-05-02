@@ -1,0 +1,31 @@
+.prog-bg{
+    height:3px;
+    background:var(--border);
+    border-radius:3px;
+    overflow:hidden;
+    margin-bottom:6px
+}
+.prog-fill{
+    height:100%;
+    border-radius:3px;
+    transition:width 0.35s ease
+}
+.prog-fill.g{
+    background:var(--green)
+}
+.prog-fill.c{
+    background:linear-gradient(90deg,var(--purple),var(--cyan))
+}
+.prog-fill.r{
+    background:var(--red)
+}
+.prog-fill.a{
+    background:var(--amber)
+}
+.prog-lbl{
+    display:flex;
+    justify-content:space-between;
+    font-family:var(--mono);
+    font-size:10px;
+    color:var(--muted)
+}
