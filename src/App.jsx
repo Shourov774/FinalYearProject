@@ -1,11 +1,11 @@
 import React from "react";
 import { useState, useRef, useCallback, useEffect } from "react";
 
-import Encrypt from "../../pages/encrypt";
-import Decrypt from "../../pages/decrypt";
-import Attack from "../../pages/attack";
-import Architecture from "../../pages/architecture";
-import Report from "../../pages/report";
+import Encrypt from "../pages/encrypt";
+import Decrypt from "../pages/decrypt";
+import Attack from "../pages/attack";
+import Architecture from "../pages/architecture";
+import Report from "../pages/report";
 import "./App.css";
 
 
@@ -51,6 +51,7 @@ export default function App(){
           <div className="sidebar-footer">
             <div style={{color:"var(--txt)",fontWeight:700,marginBottom:6, fontSize:12}}>Farhad Hasan Shourov</div>
             <div>ID: 2110579123</div>
+            <div>Supervisor:<br />Prof. Dr. Md. Arifour Rahman</div>
             <div>EEE Department, RU</div>
             <div style={{marginTop:5,color:"var(--border2)"}}>─────────</div>
             <div style={{marginTop:5}}>AES-256-GCM</div>

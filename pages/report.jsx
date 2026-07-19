@@ -18,7 +18,7 @@ export default function Report() {
         <div className="cover-sub" style={{marginTop:8}}>with Attack Mitigation & Performance Analysis</div>
         <div style={{height:1,background:"var(--border)",margin:"24px auto",maxWidth:300}}/>
         <div className="cover-meta">
-          {[["Student","Farhad Hasan Shourov"],["Department","EEE, RU"],["Project Type","Final Year Project"],["Version","v1.0 — 2025"]].map(([k,v])=>(
+          {[["Student","Farhad Hasan Shourov"],["Department","EEE, RU"],["Project Type","Final Year Project"],["Version","v2.1 — 2026"]].map(([k,v])=>(
             <div key={k} className="cover-field">
               <div className="cover-field-lbl">{k}</div>
               <div className="cover-field-val">{v}</div>
