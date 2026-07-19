@@ -7,14 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "node.js": "^0.0.1-security",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
